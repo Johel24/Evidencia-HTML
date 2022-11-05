@@ -1,0 +1,35 @@
+body{
+    background-color: darkgrey;
+    font-size: 1.5rem;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    padding: 1rem;
+}
+
+tbody tr:nth-child(2n){
+    background-color: lightskyblue;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: aliceblue;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+#Recreo{
+    text-align: center;
+    background-color: brown;
+}
+tbody td:first-child{
+    background-color: turquoise;
+}
